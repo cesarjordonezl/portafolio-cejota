@@ -1,0 +1,15 @@
+
+/* Cambiar el color de los puntos de navegación inactivos a gris */
+.slick-slider .slick-dots li button::before {
+  color: #ABABAB;
+}
+
+/* Cambiar el color del punto de navegación activo */
+.slick-slider .slick-dots li.slick-active button::before {
+  color: #FF570A !important;
+}
+
+.scroll-container {
+  max-height: 200px; /* Establece la altura máxima deseada */
+  overflow-y: scroll; /* Habilita el desplazamiento vertical */
+}
