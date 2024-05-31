@@ -51,7 +51,7 @@ const ProjectCarousel = ({ darkMode }) => {
           </h2>
           <div className="flex flex-col md:flex-row sm:mx-14 sm:my-8 md:mx-8 md:my-8">
             <a
-              href="https://todo-api-v07r.onrender.com"
+              href="https://ecommerce-backend-xk97.onrender.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -84,7 +84,7 @@ const ProjectCarousel = ({ darkMode }) => {
               <div className="flex">
                 {" "}
                 <a
-                  href="https://github.com/cesarjordonezl?tab=repositories"
+                  href="https://github.com/cesarjordonezl/ecommerce-backend-con-node"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="boxIcons mr-8 grid place-items-center w-7 h-7 sm:w-8 sm:h-8 xl:w-10 xl:h-10 cursor-pointer bg-grey rounded-lg hover:scale-125 duration-300"
@@ -92,7 +92,7 @@ const ProjectCarousel = ({ darkMode }) => {
                   <FaGithub className="text-xl sm:text-2xl xl:text-3xl text-veryDark" />
                 </a>
                 <a
-                  href="https://documenter.getpostman.com"
+                  href="https://documenter.getpostman.com/view/31164527/2s9YeHYqD2"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="boxIcons mr-8 grid place-items-center w-7 h-7 sm:w-8 sm:h-8 xl:w-10 xl:h-10 cursor-pointer bg-grey rounded-lg hover:scale-125 duration-300"
@@ -286,7 +286,7 @@ const ProjectCarousel = ({ darkMode }) => {
           </h2>
           <div className="flex flex-col md:flex-row sm:mx-14 sm:my-8 md:mx-8 md:my-8">
             <a
-              href="https://pokemon-changer.netlify.app/"
+              href="https://rickamortyok.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
