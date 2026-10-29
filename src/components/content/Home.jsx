@@ -29,7 +29,6 @@ const Home = ({ onItemClick, darkMode }) => {
   const handleProjectsClick = () => {
     onItemClick("projects");
   };
-
   return (
     <div className={`pt-12 sm:pt-16 px-2 sm:px-8 ${darkMode ? 'bg-veryDark' : 'bg-white'}`}>
       <div className="" style={{ overflow: "hidden", height: "auto" }}>
@@ -39,9 +38,32 @@ const Home = ({ onItemClick, darkMode }) => {
           <span>|</span>
         </h1>
       </div>
-      <p className={`my-8 sm:my-16 font-bold text-base sm:text-lg xl:text-xl ${darkMode ? 'text-white' : 'text-veryDark'} leading-7 sm:leading-8 lg:leading-9 xl:leading-9`}>
-        Soy Ingeniero de Sistemas, Desarrollador web Full Stack con conocimiento en tecnologías web. Mi experiencia cubre desde el desarrollo front-end con HTML, CSS, JavaScrit, React, hasta el desarrollo back-end con JavaScript, Node.js, bases de datos SQL como MySQL y PostgreSQL, utilizando Sequelize y Express.
-      </p>
+      <div className="my-6 sm:my-8">
+        <h2
+          className={`font-bold text-xl sm:text-2xl xl:text-3xl ${
+            darkMode ? "text-white" : "text-veryDark"
+          }`}
+        >
+          Ingeniero de Sistemas
+        </h2>
+
+        <h3
+          className={`mt-1 text-orange font-semibold text-lg sm:text-xl xl:text-2xl`}
+        >
+          Desarrollador Web Full Stack
+        </h3>
+
+        <p
+          className={`mt-4 max-w-3xl text-base sm:text-lg leading-7 ${
+            darkMode ? "text-white" : "text-veryDark"
+          }`}
+        >
+          Desarrollo aplicaciones web con JavaScript, React, Node.js y SQL.
+          Busco oportunidades junior para aportar mis conocimientos y seguir
+          creciendo profesionalmente.
+        </p>
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8">
         <div className={`p-3 sm:p-10 xl:p-8 rounded-3xl bg-orange shadow-lg shadow-orange/50 text-center hover:cursor-pointer hover:scale-110 duration-300 ${darkMode ? 'text-white' : 'text-veryDark'}`}>
           <p className={`font-extrabold text-3xl sm:text-4xl xl:text-5xl ${darkMode ? 'text-veryDark' : 'text-white'}`}>

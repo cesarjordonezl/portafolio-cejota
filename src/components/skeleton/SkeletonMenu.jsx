@@ -5,7 +5,7 @@ import { AiFillHome } from "react-icons/ai";
 import { FaFileCode, FaBriefcase, FaMobile } from "react-icons/fa";
 import { PiCertificateFill } from "react-icons/pi";
 import "../../App.css";
-import cv from "../../assets/pdf/CV_CESAR_ORDONEZ_4.pdf";
+import cv from "../../assets/pdf/CV_CESAR_ORDONEZ_6.pdf";
 
 const SkeletonMenu = ({ onItemClick }) => {
   const [isLoading, setIsLoading] = useState(true); // Estado para controlar la carga

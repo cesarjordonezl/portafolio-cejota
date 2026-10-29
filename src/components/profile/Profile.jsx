@@ -2,7 +2,7 @@
 import React from "react";
 import imagen from "../../assets/image/cesar o.png";
 import PropTypes from "prop-types";
-import { FaLinkedinIn, FaWhatsapp, FaDiscord, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp, FaGithub } from "react-icons/fa";
 import { HiMailOpen } from "react-icons/hi";
 import "../../App.css";
 
@@ -48,12 +48,14 @@ const Profile = ({ onItemClick, darkMode}) => {
             <FaWhatsapp className="hover:text-green w-6 h-6 sm:w-8 sm:h-8 xl:w-10 xl:h-10 text-veryDark" />
           </a>
           <a
-            href="https://discord.com/users/"
-            target="_blanck"
+            href="https://github.com/cesarjordonezl"
+            target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visitar mi perfil de GitHub"
+            title="GitHub"
             className="hover:scale-110 duration-300 boxIcons grid place-items-center w-10 h-10 sm:w-12 sm:h-12 xl:w-14 xl:h-14 cursor-pointer bg-grey rounded-xl"
-          >
-            <FaDiscord className="hover:text-purple w-6 h-6 sm:w-8 sm:h-8 xl:w-10 xl:h-10 text-veryDark" />
+             >
+            <FaGithub className="hover:text-purple w-6 h-6 sm:w-8 sm:h-8 xl:w-10 xl:h-10 text-veryDark" />
           </a>
         </div>
         <button className="hover:scale-110 duration-300 w-52 h-10 sm:w-60 sm:h-12 xl:w-64 xl:h-14 bg-orange shadow-lg shadow-orange/50 text-veryDark font-extrabold sm:text-lg xl:text-xl rounded-2xl " onClick={handleContactClick}>
