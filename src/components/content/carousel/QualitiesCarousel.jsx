@@ -34,98 +34,129 @@ const QualitiesCarousel = ({ darkMode }) => {
   return (
     <div className="w-full relative">
       <Slider ref={sliderRef} {...settings}>
-        {/*Experiencia Laboral*/}
-        <div className="">
+        {/* Experiencia Laboral */}
+        <div>
           <h2 className="pb-4 font-bold text-xl sm:text-2xl xl:text-3xl text-orange text-center">
             Experiencia Laboral
           </h2>
+
+          {/* Desarrollo web independiente */}
           <div className="mb-4 px-12 text-left">
-            <h3 className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
+            <h3
+              className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
                 darkMode ? "text-white" : "text-veryDark"
-              }`}>
-              Academlo mexico
+              }`}
+            >
+              Desarrollo web independiente
             </h3>
-            <h4 className="pl-3 text-base sm:text-lg xl:text-xl text-orange">
-            Creación de proyectos Academlo
-            </h4>
-            <p className="text-grey">2023 - 2023 </p>
+            <p className="text-grey">2024 - Actualidad</p>
             <ul className="list-disc list-inside">
-              <li className={`text-base sm:text-lg xl:text-xl ${
-                darkMode ? "text-white" : "text-veryDark"
-              }`}>
-                Realizacion de proyectos semanales durante seis meses y practicas continuas hasta la fecha.
+              <li
+                className={`text-base sm:text-lg xl:text-xl ${
+                  darkMode ? "text-white" : "text-veryDark"
+                }`}
+              >
+                Desarrollo de proyectos personales y formación continua en
+                JavaScript, React y Node.js.
               </li>
             </ul>
           </div>
+
+          {/* Academlo */}
           <div className="mb-4 px-12 text-left">
-            <h3 className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
+            <h3
+              className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
                 darkMode ? "text-white" : "text-veryDark"
-              }`}>
+              }`}
+            >
+              Academlo
+            </h3>
+            <h4 className="pl-3 text-base sm:text-lg xl:text-xl text-orange">
+              Formación Full Stack
+            </h4>
+            <p className="text-grey">2023</p>
+            <ul className="list-disc list-inside">
+              <li
+                className={`text-base sm:text-lg xl:text-xl ${
+                  darkMode ? "text-white" : "text-veryDark"
+                }`}
+              >
+                Formación práctica en desarrollo web y construcción de
+                proyectos.
+              </li>
+            </ul>
+          </div>
+
+          {/* Hughesnet */}
+          <div className="mb-4 px-12 text-left">
+            <h3
+              className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
+                darkMode ? "text-white" : "text-veryDark"
+              }`}
+            >
               Hughesnet Cartagena
             </h3>
             <h4 className="pl-3 text-base sm:text-lg xl:text-xl text-orange">
-            Instalador Redes satelitales
+              Instalador de redes satelitales
             </h4>
-            <p className="text-grey">2018-2021</p>
+            <p className="text-grey">2018 - 2021</p>
             <ul className="list-disc list-inside">
-              <li className={`text-base sm:text-lg xl:text-xl ${
-                darkMode ? "text-white" : "text-veryDark"
-              }`}>
-                Se instalan redes satelitales en zonas apartadas.
-              </li>
-              <li className={`text-base sm:text-lg xl:text-xl ${
-                darkMode ? "text-white" : "text-veryDark"
-              }`}>
-                Se suple la necesidad de conectividad.
+              <li
+                className={`text-base sm:text-lg xl:text-xl ${
+                  darkMode ? "text-white" : "text-veryDark"
+                }`}
+              >
+                Instalación de equipos y soluciones de conectividad satelital
+                en zonas apartadas.
               </li>
             </ul>
           </div>
 
+          {/* Alcaldía de Cartagena */}
           <div className="mb-4 px-12 text-left">
-            <h3 className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
+            <h3
+              className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
                 darkMode ? "text-white" : "text-veryDark"
-              }`}>
-              Alcaldia De Cartagena
+              }`}
+            >
+              Alcaldía de Cartagena
             </h3>
             <h4 className="pl-3 text-base sm:text-lg xl:text-xl text-orange">
-            Administrador base de datos
+              Administrador de bases de datos
             </h4>
-            <p className="text-grey">2013-20115</p>
+            <p className="text-grey">2013 - 2015</p>
             <ul className="list-disc list-inside">
-              <li className={`text-base sm:text-lg xl:text-xl ${
-                darkMode ? "text-white" : "text-veryDark"
-              }`}>
-                Actividades de consultas en la base de datos de la entidad.
-              </li>
-              <li className={`text-base sm:text-lg xl:text-xl ${
-                darkMode ? "text-white" : "text-veryDark"
-              }`}>
-                Administrar y manipular la base de datos.
+              <li
+                className={`text-base sm:text-lg xl:text-xl ${
+                  darkMode ? "text-white" : "text-veryDark"
+                }`}
+              >
+                Consultas, administración y gestión de bases de datos
+                institucionales.
               </li>
             </ul>
           </div>
 
+          {/* Alcaldía de Mahates */}
           <div className="mb-4 px-12 text-left">
-            <h3 className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
+            <h3
+              className={`pb-2 text-lg sm:text-xl xl:text-2xl font-bold ${
                 darkMode ? "text-white" : "text-veryDark"
-              }`}>
+              }`}
+            >
               Alcaldía de Mahates
             </h3>
             <h4 className="pl-3 text-base sm:text-lg xl:text-xl text-orange">
-            Aministrador pagina web
+              Administrador de página web
             </h4>
-            <p className="text-grey">2007-20115</p>
-            
+            <p className="text-grey">2007 - 2015</p>
             <ul className="list-disc list-inside">
-              <li className={`text-base sm:text-lg xl:text-xl ${
-                darkMode ? "text-white" : "text-veryDark"
-              }`}>
-                Administrador pagina web de la entidad.
-              </li>
-              <li className={`text-base sm:text-lg xl:text-xl ${
-                darkMode ? "text-white" : "text-veryDark"
-              }`}> 
-                 Actividades administrativas del sitio web.
+              <li
+                className={`text-base sm:text-lg xl:text-xl ${
+                  darkMode ? "text-white" : "text-veryDark"
+                }`}
+              >
+                Administración y actualización del sitio web institucional.
               </li>
             </ul>
           </div>
